@@ -24,3 +24,12 @@
 a {
   text-decoration: none;
 }
+
+a:hover {
+  color: #FFF;
+  background-color: black;
+}
+
+body {
+  margin: 33px
+}

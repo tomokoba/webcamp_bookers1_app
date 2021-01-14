@@ -1,0 +1,26 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+h1 {
+  margin: 18px;
+}
+
+p {
+  margin: 33px;
+}
+
+.btn {
+  letter-spacing: 1px;
+}
+.books_link {
+  color: #fff;
+  padding: 10px 15px;
+  background-color: #eb6100;
+  border-radius: 5px;
+}
+.books_link:hover {
+  margin-top: 3px;
+  color: #fff;
+  background: #f56500;
+}

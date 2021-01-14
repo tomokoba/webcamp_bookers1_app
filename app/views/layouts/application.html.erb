@@ -9,7 +9,10 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
+  <body>s
+    <% flash.each do |message_type, message| %>
+      <%= message %>
+    <% end %>
     <%= yield %>
   </body>
 </html>
